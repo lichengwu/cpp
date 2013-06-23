@@ -9,6 +9,7 @@
 
 #include <iostream>
 #include <typeinfo>
+#include <cctype>
 
 using namespace std;
 
@@ -36,4 +37,21 @@ void TestString::testReadWrite() {
 		}
 		cout << line << endl;
 	}
+}
+
+void TestString::testReadChar() {
+	string test = "test string";
+	for (string::size_type index = 0; index < test.size(); index++) {
+		cout << test[index] << endl;
+		test[index] = '*';
+	}
+	cout << test << endl;
+
+}
+
+void TestString::testStringMethods() {
+
+	cout << isdigit('0') << endl;
+	cout << isxdigit('x') << endl;
+
 }

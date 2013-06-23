@@ -16,6 +16,8 @@ public:
 	virtual ~TestString();
 	static void testGetLine();
 	static void testReadWrite();
+	static void testReadChar();
+	static void testStringMethods();
 
 };
 

@@ -16,9 +16,12 @@ int main() {
 
 	//TestString::testReadWrite();
 
-	TestString::testGetLine();
+	//TestString::testGetLine();
 
-	cout << "!!!Hello World!!!" << endl;
+	//TestString::testReadChar();
+
+	TestString::testStringMethods();
+
 	return 0;
 }
 
