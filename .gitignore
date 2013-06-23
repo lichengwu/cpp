@@ -13,3 +13,7 @@
 *.a
 
 .metadata
+study/.cproject
+study/.project
+study/Debug/
+
