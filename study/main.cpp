@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "TestString.h"
+#include "TestVector.h"
 
 using namespace std;
 
@@ -13,7 +14,12 @@ int main()
 
     //TestString::testReadChar();
 
-    TestString::testStringMethods();
+    //TestString::testStringMethods();
+
+    //======test vector======
+    //TestVector::testInit();
+
+    TestVector::testIterator();
 
     return 0;
 }
