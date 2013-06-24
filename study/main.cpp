@@ -4,15 +4,16 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
 
-	//TestString::testReadWrite();
+    //TestString::testReadWrite();
 
-	//TestString::testGetLine();
+    //TestString::testGetLine();
 
-	//TestString::testReadChar();
+    //TestString::testReadChar();
 
-	TestString::testStringMethods();
+    TestString::testStringMethods();
 
-	return 0;
+    return 0;
 }
