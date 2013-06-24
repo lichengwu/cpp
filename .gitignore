@@ -17,3 +17,6 @@ study/.cproject
 study/.project
 study/Debug/
 RemoteSystemsTempFiles
+study/study.cbp
+study/study.depend
+study/study.layout
