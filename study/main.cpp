@@ -2,6 +2,7 @@
 
 #include "TestString.h"
 #include "TestVector.h"
+#include "TestBitset.h"
 
 using namespace std;
 
@@ -19,7 +20,11 @@ int main()
     //======test vector======
     //TestVector::testInit();
 
-    TestVector::testIterator();
+    //TestVector::testIterator();
+
+    //======test bitset=======
+
+    TestBitset::testInit();
 
     return 0;
 }
