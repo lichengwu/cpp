@@ -12,6 +12,7 @@ public:
     static void testReadWrite();
     static void testReadChar();
     static void testStringMethods();
+    static void testStringCopy();
 protected:
 private:
 };

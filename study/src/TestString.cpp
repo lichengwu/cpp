@@ -59,3 +59,15 @@ void TestString::testStringMethods()
     cout << isxdigit('x') << endl;
 
 }
+
+void TestString::testStringCopy(){
+    string s1="this is a string";
+    string s2=s1;
+    cout<<"s1:"<<s1<<endl;
+    cout<<"s2:"<<s2<<endl;
+    s2.append(",haha");
+    cout<<"after:"<<endl;
+    cout<<"s1:"<<s1<<endl;
+    cout<<"s2:"<<s2<<endl;
+
+}
