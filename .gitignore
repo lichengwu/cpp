@@ -21,3 +21,7 @@ study/study.cbp
 study/study.depend
 study/study.layout
 study/bin
+/study/build/
+/study/dist/
+/study/.dep.inc
+/study/nbproject/

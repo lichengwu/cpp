@@ -36,25 +36,8 @@ int main() {
 	//TestArray::test1();
 	//TestArray::test2();
 	//TestArray::test3();
-
-	TestFunction *tf = new TestFunction();
-
-	int v1 = 10, v2 = 20;
-
-	cout << "before:\t" << "v1=" << v1 << ",v2=" << v2 << endl;
-
-	tf->swap1(v1, v2);
-
-	cout << "after swap1:\t" << "v1=" << v1 << ",v2=" << v2 << endl;
-
-	int *p1=&v1;
-	int *p2=&v2;
-
-	tf->swap2(p1,p2);
-
-	cout << "after swap2:\t" << "p1=" << *p1 << ",p2=" << *p2 << endl;
-
-	delete tf;
+        
+        TestFunction::test();
 
 	return 0;
 }

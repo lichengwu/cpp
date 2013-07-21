@@ -8,12 +8,6 @@
 #include "TestFunction.h"
 
 TestFunction::TestFunction() {
-	// TODO Auto-generated constructor stub
-
-}
-
-TestFunction::~TestFunction() {
-	// TODO Auto-generated destructor stub
 }
 
 void TestFunction::swap1(int &v1, int &v2) {
