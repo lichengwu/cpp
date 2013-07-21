@@ -47,9 +47,6 @@ public:
         tf.swap2(p1, p2);
 
         cout << "after swap2:\t" << "p1=" << *p1 << ",p2=" << *p2 << endl;
-
-
-
     }
 
 };
