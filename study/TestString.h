@@ -8,11 +8,19 @@ class TestString
 public:
     TestString();
     virtual ~TestString();
-    static void testGetLine();
-    static void testReadWrite();
-    static void testReadChar();
-    static void testStringMethods();
-    static void testStringCopy();
+    void testGetLine();
+    void testReadWrite();
+    void testReadChar();
+    void testStringMethods();
+    void testStringCopy();
+    void testFind();
+    
+    
+    static void test(){
+       TestString ts;
+       ts.testFind();
+    }
+    
 protected:
 private:
 };

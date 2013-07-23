@@ -1,12 +1,13 @@
 #include <iostream>
 
 #include "TestString.h"
-#include "TestVector.h"
+#include "TestCollection.h"
 #include "TestBitset.h"
 #include "TestPointer.h"
 #include "TestArray.h"
 #include "TestFunction.h"
 #include "TestIO.h"
+#include "TestMap.h"
 #include <fstream>
 
 using namespace std;
@@ -41,23 +42,13 @@ int main() {
 
     //TestFunction::test();
 
-    TestIO::test();
+    //TestIO::test();
 
-    //    ifstream fis;
-    //
-    //    fis.open("/tmp/filec2BaUt", ios::in);
-    //    //
-    //    string line;
-    //    //
-    //    //cout << "read data from[" << pTmpFileName << "]" << endl;
-    //
-    //    if (fis) {
-    //        while ((fis >> line)) {
-    //            cout << line << endl;
-    //        }
-    //    } else {
-    //        cerr << "open temp file error." << endl;
-    //    }
+    //    TestCollection::test();
+
+    //    TestString::test();
+    
+    TestMap::test();
 
     return 0;
 }
