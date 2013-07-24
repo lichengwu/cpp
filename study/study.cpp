@@ -8,6 +8,7 @@
 #include "TestFunction.h"
 #include "TestIO.h"
 #include "TestMap.h"
+#include "TextQuery.h"
 #include <fstream>
 
 using namespace std;
@@ -48,7 +49,9 @@ int main() {
 
     //    TestString::test();
     
-    TestMap::test();
+    //TestMap::test();
+    
+    TextQuery::test();
 
     return 0;
 }
