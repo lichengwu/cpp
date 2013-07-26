@@ -10,7 +10,7 @@
 #include <map>
 #include <iostream>
 #include <string>
-#include <strstream>
+#include <sstream>
 #include <utility>
 #include <stdexcept>
 
@@ -27,7 +27,7 @@ public:
         map<string, int> iMap;
         for (int i = 0; i < 10; i++) {
             string key("map_");
-            strstream ss;
+            stringstream ss;
             ss << i;
             key.append(ss.str());
             //iMap[key] = i;
