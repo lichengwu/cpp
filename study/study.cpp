@@ -17,6 +17,7 @@
 #include <algorithm>
 #include <iostream>
 #include "MessageAndFolderTest.h"
+#include "HasPtr.h"
 
 using namespace std;
 
@@ -87,7 +88,9 @@ int main() {
     //
     //    cout << wc << " word[s] longer than 3" << endl;
 
-    MessageAndFolderTest::test();
+    //    MessageAndFolderTest::test();
+
+    HasPtr::test();
 
     return 0;
 }
