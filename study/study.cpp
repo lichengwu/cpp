@@ -16,6 +16,7 @@
 #include <string>
 #include <algorithm>
 #include <iostream>
+#include "MessageAndFolderTest.h"
 
 using namespace std;
 
@@ -65,26 +66,28 @@ int main() {
     //    TestAlgorithm::test();
     //TestIterator::test();
 
-    vector<string> words;
-    string word;
-    while ((cin >> word)) {
-        if (word.empty() || word == "q") {
-            break;
-        }
-        words.push_back(word);
-    }
+    //    vector<string> words;
+    //    string word;
+    //    while ((cin >> word)) {
+    //        if (word.empty() || word == "q") {
+    //            break;
+    //        }
+    //        words.push_back(word);
+    //    }
+    //
+    //    sort(words.begin(), words.end());
+    //
+    //    vector<string>::iterator end_unqiue = unique(words.begin(), words.end());
+    //
+    //    words.erase(end_unqiue, words.end());
+    //
+    //    stable_sort(words.begin(), words.end());
+    //
+    //    vector<string>::size_type wc = count_if(words.begin(), words.end(), ge);
+    //
+    //    cout << wc << " word[s] longer than 3" << endl;
 
-    sort(words.begin(), words.end());
-
-    vector<string>::iterator end_unqiue = unique(words.begin(), words.end());
-
-    words.erase(end_unqiue, words.end());
-
-    stable_sort(words.begin(), words.end());
-
-    vector<string>::size_type wc = count_if(words.begin(), words.end(), ge);
-
-    cout << wc << " word[s] longer than 3" << endl;
+    MessageAndFolderTest::test();
 
     return 0;
 }
