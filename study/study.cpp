@@ -18,6 +18,7 @@
 #include <iostream>
 #include "MessageAndFolderTest.h"
 #include "HasPtr.h"
+#include "Operator.h"
 
 using namespace std;
 
@@ -90,7 +91,9 @@ int main() {
 
     //    MessageAndFolderTest::test();
 
-    HasPtr::test();
+    // HasPtr::test();
+
+    Operator::test();
 
     return 0;
 }
