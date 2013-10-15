@@ -10,8 +10,6 @@
 Operator::Operator() : size(1) {
 }
 
-Operator::Operator(const Operator& orig) {
-}
 
 Operator::~Operator() {
 }

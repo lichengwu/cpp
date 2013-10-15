@@ -15,7 +15,6 @@ using namespace std;
 class Operator {
 public:
     Operator();
-    Operator(const Operator& orig);
     virtual ~Operator();
     friend istream& operator>>(istream& in, Operator& o);
     friend ostream& operator<<(ostream& out, Operator& o);
